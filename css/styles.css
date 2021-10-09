@@ -1,9 +1,96 @@
-/*основной цвет #212121*/
-/*вторичный текст rgba(117, 117, 117, 1)*/
-/* белый #FFFFFF*/
-/* акцент #2196F3*/
-/*цвет бекграунда #F5F4FA*/
-.body {
-  color: #212121;
-  background-color: #ffffff;
+:root {
+  --primary--text--color: rgba(117, 117, 117, 1);
+  --text--color: #212121;
+  --text--color--white: #ffffff;
+  --accent--color: #2196f3;
+  --main--backgraundcolor: #ffffff;
+  --backgraundcolor: #f5f4fa;
+}
+
+body {
+  color: var(--primary--text--color);
+  background-color: tomato;
+  font-family: Roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*навигация*/
+.site-nav .link {
+  color: #000000;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent--color);
+}
+.site-nav .link.current {
+  color: var(--accent--color);
+}
+.logo {
+  color: var(--text--color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent--color);
+}
+.header-contact a {
+  color: var(--primary--text--color);
+}
+.header-contact a:hover,
+.header-contact a:focus {
+  color: var(--accent--color);
+}
+.footer-contacts .link {
+  text-decoration: none;
+}
+/*Hero*/
+.hero-title {
+  color: var(--text--color--white);
+}
+.section-title {
+  color: var(--text--color);
+}
+.benefits .title {
+  color: var(--text--color);
+}
+/*Секция наши разработчики*/
+.team .title {
+  color: var(--text--color);
+}
+/*Портфолио секция*/
+.projects .title {
+  color: var(--text--color);
+}
+/*Footer*/
+.footer-contacts .link {
+  color: var(--primary--text--color);
+}
+.footer-contacts .link:focus,
+.footer-contacts .link:hover {
+  color: var(--accent--color);
+}
+.address {
+  color: var(--text--color--white);
+}
+
+/*Button*/
+.button {
+  color: var(--text--color--white);
+  background-color: var(--accent--color);
+}
+.button-primary {
+  color: var(--text--color--white);
+  background-color: var(--accent--color);
+}
+.button-secondary {
+  color: var(--text--color);
+  background-color: var(--backgraundcolor);
+}
+/*Portfolio*/
+.projects p {
+  color: var(--primary--text--color);
 }
