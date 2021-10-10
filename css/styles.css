@@ -114,6 +114,7 @@ body {
 }
 .address {
   color: var(--text--color--white);
+  font-style: normal;
 }
 
 /*Button*/
