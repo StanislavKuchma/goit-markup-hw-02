@@ -9,8 +9,11 @@
 
 body {
   color: var(--primary--text--color);
-  background-color: tomato;
+  background-color: tomato; /*временно*/
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -22,6 +25,10 @@ body {
 .site-nav .link {
   color: #000000;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -32,6 +39,10 @@ body {
 }
 .logo {
   color: var(--text--color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 2;
 }
 .logo:hover,
 .logo:focus {
@@ -39,6 +50,10 @@ body {
 }
 .header-contact a {
   color: var(--primary--text--color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header-contact a:hover,
 .header-contact a:focus {
@@ -50,16 +65,41 @@ body {
 /*Hero*/
 .hero-title {
   color: var(--text--color--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .section-title {
   color: var(--text--color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 .benefits .title {
   color: var(--text--color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
+/*.benefits .text {
+  font-size: 14px;
+  line-height: 1.71;
+}*/
 /*Секция наши разработчики*/
 .team .title {
   color: var(--text--color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team .profesion {
+  font-size: 16px;
+  line-height: 1.19;
 }
 /*Портфолио секция*/
 .projects .title {
@@ -81,16 +121,41 @@ body {
 .button {
   color: var(--text--color--white);
   background-color: var(--accent--color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 .button-primary {
   color: var(--text--color--white);
   background-color: var(--accent--color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 .button-secondary {
   color: var(--text--color);
   background-color: var(--backgraundcolor);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 /*Portfolio*/
 .projects p {
   color: var(--primary--text--color);
+}
+.projects .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.88;
 }
