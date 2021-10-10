@@ -9,7 +9,6 @@
 
 body {
   color: var(--primary--text--color);
-  background-color: tomato; /*временно*/
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
@@ -23,7 +22,7 @@ body {
 }
 /*навигация*/
 .site-nav .link {
-  color: #000000;
+  color: var(--text--color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -144,6 +143,16 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+}
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--text--color);
+  background-color: var(--backgraundcolor);
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--text--color--white);
+  background-color: var(--accent--color);
 }
 /*Portfolio*/
 .projects p {
