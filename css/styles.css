@@ -5,6 +5,7 @@
   --accent--color: #2196f3;
   --main--backgraundcolor: #ffffff;
   --backgraundcolor: #f5f4fa;
+  --hero--backgraundcolor: #2f303a;
 }
 
 body {
@@ -46,10 +47,10 @@ body {
 .logo span {
   color: var(--accent--color);
 }
-.logo:hover,
-.logo:focus {
+/*.logo:hover,
+ .logo:focus {
   color: var(--accent--color);
-}
+}*/
 .header-contact a {
   color: var(--primary--text--color);
   font-weight: 500;
@@ -65,6 +66,9 @@ body {
   text-decoration: none;
 }
 /*Hero*/
+.hero {
+  background-color: var(--hero--backgraundcolor);
+}
 .hero-title {
   color: var(--text--color--white);
   font-weight: 900;
@@ -108,12 +112,22 @@ body {
   color: var(--text--color);
 }
 /*Footer*/
+.footer {
+  background-color: var(--hero--backgraundcolor);
+}
+.footer .logo {
+  color: var(--text--color--white);
+}
 .footer-contacts .link {
   color: var(--primary--text--color);
 }
 .footer-contacts .link:focus,
-.footer-contacts .link:hover {
-  color: var(--accent--color);
+.footer-contacts .link:hover,
+.footer .logo:hover,
+.footer .footer:focus,
+.footer .address:hover,
+.footer .address:focus {
+  text-decoration: underline solid var(--accent--color);
 }
 .address {
   color: var(--text--color--white);
@@ -129,6 +143,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .button-primary {
   color: var(--text--color--white);
@@ -138,6 +153,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  cursor: pointer;
 }
 .button-secondary {
   color: var(--text--color);
@@ -147,6 +163,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  cursor: pointer;
 }
 .button-primary:hover,
 .button-primary:focus {
