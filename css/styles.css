@@ -121,6 +121,9 @@ body {
 .footer-contacts .link {
   color: var(--primary--text--color);
 }
+.footer-contacts a {
+  font-style: normal;
+}
 .footer-contacts .link:focus,
 .footer-contacts .link:hover,
 .footer .logo:hover,
@@ -131,7 +134,6 @@ body {
 }
 .address {
   color: var(--text--color--white);
-  font-style: normal;
 }
 
 /*Button*/
