@@ -6,6 +6,7 @@
   --main--backgraundcolor: #ffffff;
   --backgraundcolor: #f5f4fa;
   --hero--backgraundcolor: #2f303a;
+  --botton--color--hover: #188ce8;
 }
 
 body {
@@ -126,11 +127,9 @@ body {
 }
 .footer-contacts .link:focus,
 .footer-contacts .link:hover,
-.footer .logo:hover,
-.footer .footer:focus,
 .footer .address:hover,
 .footer .address:focus {
-  text-decoration: underline solid var(--accent--color);
+  color: var(--accent--color);
 }
 .address {
   color: var(--text--color--white);
@@ -166,6 +165,11 @@ body {
   line-height: 1.63;
   text-align: center;
   cursor: pointer;
+}
+.hero .button-primary:focus,
+.hero .button-primary:hover {
+  background-color: var(--botton--color--hover);
+  color: var(--text--color--white);
 }
 .button-primary:hover,
 .button-primary:focus {
